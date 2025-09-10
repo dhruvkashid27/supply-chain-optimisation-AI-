@@ -12,3 +12,19 @@ Outcomes
 Quickstart (Colab)
 ```python
 !pip install pulp tensorflow pandas numpy
+.
+├── src/
+│   ├── dl_forecasting.py
+│   ├── transport_lp.py
+├── data/
+└── README.md
+
+Forecast (next 14 days)
+2025-01-01    240
+2025-01-02    255
+...
+
+Shipment Plan (LP Optimal)
+          Store1  Store2  Store3
+DC_East     300     250     200
+DC_West     150     200     180
